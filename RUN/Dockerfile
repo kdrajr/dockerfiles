@@ -1,2 +1,2 @@
 FROM almalinux
-RUN nginx
+RUN sudo dnf install nginx -y
